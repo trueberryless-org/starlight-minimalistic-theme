@@ -1,22 +1,23 @@
 {
 	"name": "docs",
-	"type": "module",
 	"version": "0.0.0",
 	"private": true,
+	"type": "module",
 	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
+		"astro": "astro",
 		"build": "astro check && astro build",
+		"dev": "astro dev",
 		"preview": "astro preview",
-		"astro": "astro"
+		"start": "astro dev"
 	},
 	"dependencies": {
 		"@astrojs/check": "catalog:",
 		"@astrojs/starlight": "catalog:",
 		"astro": "catalog:",
 		"sharp": "catalog:",
-		"starlight-package-managers": "^0.8.0",
 		"starlight-minimalistic-theme": "workspace:*",
+		"starlight-package-managers": "^0.8.0",
 		"typescript": "catalog:"
-	}
+	},
+	"packageManager": "pnpm@9.6.0"
 }
