@@ -47,12 +47,12 @@ importers:
       sharp:
         specifier: 'catalog:'
         version: 0.33.5
+      starlight-minimalistic-theme:
+        specifier: workspace:*
+        version: link:../../packages/theme
       starlight-package-managers:
         specifier: ^0.8.0
         version: 0.8.0(@astrojs/starlight@0.30.0(astro@5.0.5(rollup@4.28.1)(typescript@5.5.4)(yaml@2.5.1)))(astro@5.0.5(rollup@4.28.1)(typescript@5.5.4)(yaml@2.5.1))
-      starlight-theme-template:
-        specifier: workspace:*
-        version: link:../../packages/theme
       typescript:
         specifier: 'catalog:'
         version: 5.5.4

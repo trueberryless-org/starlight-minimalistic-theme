@@ -1,6 +1,5 @@
 {
-	"name": "starlight-theme-template",
-	"private": true,
+	"name": "starlight-minimalistic-theme",
 	"version": "0.0.0",
 	"type": "module",
 	"license": "MIT",
@@ -8,7 +7,7 @@
 		".": "./index.ts",
 		"./styles/*": "./styles/*"
 	},
-	"homepage": "https://starlight-theme-template.otterlord.dev/",
+	"homepage": "https://starlight-minimalistic-theme.trueberryless.org/",
 	"author": "Reuben Tier <otterlord.dev@gmail.com>",
 	"files": [
 		"index.ts",
@@ -16,7 +15,9 @@
 	],
 	"keywords": [
 		"withastro",
-		"starlight"
+		"starlight",
+		"minimalistic",
+		"theme"
 	],
 	"devDependencies": {
 		"astro": "catalog:",

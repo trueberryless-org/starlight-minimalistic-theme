@@ -1,16 +1,16 @@
 import starlight from "@astrojs/starlight";
 import { defineConfig } from "astro/config";
-import theme from "starlight-theme-template";
+import theme from "starlight-minimalistic-theme";
 
 // https://astro.build/config
 export default defineConfig({
 	site: "https://starlight-theme-theme.netlify.app",
 	integrations: [
 		starlight({
-			title: "Starlight Theme Template",
+			title: "Starlight Minimalistic Theme",
 			favicon: "/favicon.svg",
 			social: {
-				github: "https://github.com/TheOtterlord/starlight-theme-template",
+				github: "https://github.com/TheOtterlord/starlight-minimalistic-theme",
 			},
 			sidebar: [
 				{

@@ -1,4 +1,4 @@
-# Starlight Theme Template
+# Starlight Minimalistic Theme
 
 Follow these steps to create your new Starlight theme.
 
