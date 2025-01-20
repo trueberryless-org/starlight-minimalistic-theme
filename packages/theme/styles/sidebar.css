@@ -1,0 +1,16 @@
+.sidebar ul ul li {
+	margin-inline-start: calc(var(--sl-sidebar-item-padding-inline) + 1ch / 2);
+	/* padding: 0.5em var(--sl-sidebar-item-padding-inline); */
+}
+
+.sidebar ul ul li:has(> a[aria-current="page"]) {
+	border-inline-start-color: var(--sl-color-text-accent);
+}
+
+.sidebar summary {
+	padding: 0.5em var(--sl-sidebar-item-padding-inline);
+}
+
+.sidebar .large {
+	font-size: var(--sl-text-sm);
+}
