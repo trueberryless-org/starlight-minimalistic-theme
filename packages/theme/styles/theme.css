@@ -3,3 +3,22 @@
 	- https://github.com/withastro/starlight/blob/main/packages/starlight/style/props.css
 	For more complex custom styles, you may need to refer to Starlight's components.
 */
+
+:root,
+::backdrop {
+	--sl-text-3xl: 1.6875rem; /* 27px */
+	--sl-text-h1: var(--sl-text-3xl);
+	--sl-text-h2: var(--sl-text-2xl);
+	--sl-text-h3: var(--sl-text-xl);
+	--sl-text-h4: var(--sl-text-lg);
+	--sl-text-h5: var(--sl-text-base);
+}
+
+@media (min-width: 50em) {
+	:root {
+		--sl-text-h1: var(--sl-text-3xl);
+		--sl-text-h2: var(--sl-text-2xl);
+		--sl-text-h3: var(--sl-text-xl);
+		--sl-text-h4: var(--sl-text-lg);
+	}
+}

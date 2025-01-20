@@ -10,7 +10,9 @@ export default function createPlugin(): StarlightPlugin {
 					customCss: [
 						"starlight-minimalistic-theme/styles/theme.css",
 						"starlight-minimalistic-theme/styles/asides.css",
+						"starlight-minimalistic-theme/styles/markdown.css",
 						"starlight-minimalistic-theme/styles/sidebar.css",
+						"starlight-minimalistic-theme/styles/toc.css",
 						...(config.customCss ?? []),
 					],
 				});

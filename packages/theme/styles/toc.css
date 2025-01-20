@@ -1,0 +1,11 @@
+.right-sidebar-panel :global(h2) {
+	font-size: var(--sl-text-sm);
+}
+
+@media (min-width: 72rem) {
+	.right-sidebar {
+		position: sticky;
+		top: -1.7rem;
+		padding-top: calc(var(--sl-nav-height) + 1.7rem);
+	}
+}

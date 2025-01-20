@@ -1,0 +1,14 @@
+.sl-markdown-content
+	:not(h1, h2, h3, h4, h5, h6)
+	+ :is(h1, h2, h3, h4, h5, h6):not(:where(.not-content *)) {
+	margin-top: 2.5em;
+}
+
+.main-pane .content-panel {
+	padding: 3rem var(--sl-content-pad-x) 0.5rem;
+}
+
+.main-pane .content-panel + .content-panel {
+	padding-top: 0;
+	border-top: none;
+}
