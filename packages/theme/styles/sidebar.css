@@ -14,3 +14,14 @@
 .sidebar .large {
 	font-size: var(--sl-text-sm);
 }
+
+.sidebar
+	:is(
+		[aria-current="page"],
+		[aria-current="page"]:hover,
+		[aria-current="page"]:focus
+	) {
+	font-weight: 600;
+	color: var(--sl-color-text-accent);
+	background-color: transparent;
+}
