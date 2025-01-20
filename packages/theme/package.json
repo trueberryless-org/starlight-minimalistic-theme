@@ -8,7 +8,7 @@
 		"./styles/*": "./styles/*"
 	},
 	"homepage": "https://starlight-minimalistic-theme.trueberryless.org/",
-	"author": "Reuben Tier <otterlord.dev@gmail.com>",
+	"author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
 	"files": [
 		"index.ts",
 		"styles"
