@@ -1,28 +1,31 @@
 {
-	"name": "starlight-minimalistic-theme-monorepo",
-	"version": "0.0.0",
-	"private": true,
-	"homepage": "https://github.com/trueberryless-org/starlight-minimalistic-theme",
-	"bugs": {
-		"url": "https://github.com/trueberryless-org/starlight-minimalistic-theme/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/trueberryless-org/starlight-minimalistic-theme.git"
-	},
-	"license": "MIT",
-	"author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
-	"scripts": {
-		"build": "pnpm --filter docs build",
-		"ci:publish": "pnpm publish -r",
-		"ci:version": "pnpm changeset version",
-		"dev": "pnpm --filter docs dev",
-		"version": "pnpm changeset version && pnpm i --no-frozen-lockfile"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"@changesets/changelog-github": "^0.5.0",
-		"@changesets/cli": "^2.27.11"
-	},
-	"packageManager": "pnpm@9.6.0"
+  "name": "starlight-minimalistic-theme-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/trueberryless-org/starlight-minimalistic-theme",
+  "bugs": {
+    "url": "https://github.com/trueberryless-org/starlight-minimalistic-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueberryless-org/starlight-minimalistic-theme.git"
+  },
+  "license": "MIT",
+  "author": "trueberryless <trueberryless@gmail.com> (https://trueberryless.org)",
+  "scripts": {
+    "build": "pnpm --filter docs build",
+    "ci:publish": "pnpm publish -r",
+    "ci:version": "pnpm changeset version",
+    "dev": "pnpm --filter docs dev",
+    "version": "pnpm changeset version && pnpm i --no-frozen-lockfile"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.11",
+    "@trivago/prettier-plugin-sort-imports": "5.2.2",
+    "prettier": "3.5.3",
+    "prettier-plugin-astro": "0.14.1"
+  },
+  "packageManager": "pnpm@9.6.0"
 }
