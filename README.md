@@ -1,5 +1,7 @@
 # Starlight Minimalistic Theme
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5c950e82-1547-4d2c-b0d5-841a24852046/deploy-status)](https://app.netlify.com/sites/starlight-minimalistic-theme/deploys)
+
 Follow these steps to create your new Starlight theme.
 
 - [ ] Update the package name, author, and URL in [packages/theme/package.json](packages/theme/package.json) and the [README](packages/theme/README.md), and remove `"private": true` from `package.json`.
