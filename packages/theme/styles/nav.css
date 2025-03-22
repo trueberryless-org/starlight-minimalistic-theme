@@ -1,0 +1,23 @@
+nav {
+	background-color: transparent !important;
+}
+
+/* summary {
+	border-bottom: 1px solid var(--sl-color-hairline);
+} */
+
+/* .header {
+	border-bottom: 1px solid var(--sl-color-hairline);
+	background-color: var(--sl-color-bg);
+} */
+
+@media (min-width: 50rem) {
+	.sidebar-pane {
+		background-color: transparent;
+		border-inline-end: 1px solid var(--sl-color-hairline);
+	}
+}
+
+option {
+	background-color: var(--sl-color-bg);
+}
